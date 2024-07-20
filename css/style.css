@@ -6,7 +6,6 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  font-size: 17px;
   background-color: var(--bgColor);
   color: var(--brandcolor);
 }
@@ -102,6 +101,9 @@ body {
     margin-top: 100px !important;
 
   }
+  body{
+    font-size: 17px;
+  }
   .socialicons{
     margin-top: 700px;
   }
@@ -114,9 +116,6 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .Brittany {
-    margin-top: 50px;
-  }
   .development{
     margin-top: 80px;
   }
