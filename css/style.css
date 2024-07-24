@@ -25,26 +25,26 @@ body {
 .Brittany .underlines {
   border-bottom: 1px solid white;
 }
-.Brittany .experience:hover { 
+.Brittany .experience:hover {
   width: 80px;
   border-bottom: 1px solid white;
   width: 40px;
 }
-.partents:hover{
- background-color:#1f2738 ;
- padding: 20px;
+.partents:hover {
+  background-color: #1f2738;
+  padding: 20px;
 }
-.seniors{
+.seniors {
   color: white;
   text-transform: capitalize;
   font-weight: 600;
 }
-.seniors:hover{
+.seniors:hover {
   color: #48cbdc;
 }
-.engineerss{
+.engineerss {
   text-transform: capitalize;
-  font-weight: 600; 
+  font-weight: 600;
 }
 .javabtn {
   color: #48cbdc;
@@ -55,84 +55,93 @@ body {
   background-color: #193235;
 }
 ::marker {
-   display: none;
-    unicode-bidi: isolate;
-    font-variant-numeric: tabular-nums;
-    text-transform: none;
-    text-indent: 0px !important;
-    text-align: start !important;
-    text-align-last: start !important;
+  display: none;
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
 }
-.abouts::before{
-  content:'';
+.abouts::before {
+  content: "";
   height: 2px;
   width: 30px;
   background-color: var(--brandcolor);
   display: inline-block;
   margin: 3px 10px 3px 0px;
-  transition:width 0.5s;
+  transition: width 0.5s;
 }
-.abouts:hover::before{
+.abouts:hover::before {
   width: 80px;
   background-color: white;
 }
-.presents{
+.presents {
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.socialicons{
+a {
+  color: var(--brandcolor);
+}
+.socialicons {
   font-size: 28px;
 }
+.fa-github:hover {
+  color: white;
+}
+.fa-linkedin-square:hover {
+  color: rgb(78, 55, 228);
+}
+.fa-instagram:hover {
+  color: rgb(234, 120, 139);
+}
 
-@media (min-width :992px) {
-  .positions, .socialicons{
+@media (min-width: 992px) {
+  .positions,
+  .socialicons {
     position: fixed;
   }
-  .accessibillity{
+  .accessibillity {
     margin-top: 80px !important;
   }
-  .frontend{
+  .frontend {
     margin-top: 70px !important;
-
   }
-  .engineer, .Loosely{
+  .engineer,
+  .Loosely {
     margin-top: 100px !important;
-
   }
-  body{
+  body {
     font-size: 17px;
   }
-  .socialicons{
+  .socialicons {
     margin-top: 700px;
   }
   .Brittany .Chiang {
     font-size: 50px;
     font-weight: bold;
   }
-  .Brittany{
+  .Brittany {
     margin-top: 60px;
   }
 }
 @media (max-width: 768px) {
-  .development{
+  .development {
     margin-top: 18px;
   }
-  .positions{
+  .positions {
     position: static;
   }
-  .Losely{
+  .Losely {
     margin-top: 60px !important;
-  
   }
   .Brittany .Chiang {
     font-size: 35px;
     font-weight: bold;
   }
-  body{
+  body {
     font-size: 16px;
   }
-  
 }
-
