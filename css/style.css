@@ -141,6 +141,13 @@ a {
     font-size: 35px;
     font-weight: bold;
   }
+  .bg-blacks{
+  position: fixed;
+  background-color: #0f172a;
+  }
+  .development{
+    margin-top: 130px;
+  }
   body {
     font-size: 16px;
   }
