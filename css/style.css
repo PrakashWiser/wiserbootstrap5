@@ -13,11 +13,16 @@ body {
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 2px;
+  color: var(--brandcolor);
+}
+.Brittany .nav-link:hover{
+  color: white;
 }
 .Brittany .Chiang {
   font-size: 50px;
   font-weight: bold;
 }
+
 .Brittany .Senior {
   font-size: 22px;
   font-weight: 600;
@@ -45,7 +50,7 @@ body {
   text-transform: capitalize;
   font-weight: 600;
 }
-.javabtn {
+.javabtn, .javabtn:hover {
   color: #48cbdc;
   font-size: 13px;
   border-radius: 20px;
@@ -73,7 +78,7 @@ body {
 }
 .abouts:hover::before {
   width: 80px;
-  background-color: white;
+  background-color: white ;
 }
 .presents {
   font-size: 13px;
@@ -91,10 +96,10 @@ a {
   color: white;
 }
 .fa-linkedin-square:hover {
-  color: rgb(78, 55, 228);
+  color: rgb(61, 35, 230);
 }
 .fa-instagram:hover {
-  color: rgb(234, 120, 139);
+  color: rgb(239, 50, 81);
 }
 
 @media (min-width: 992px) {
@@ -116,7 +121,7 @@ a {
     font-size: 17px;
   }
   .socialicons {
-    margin-top: 500px;
+    margin-top: 460px;
   }
   .Brittany .Chiang {
     font-size: 50px;
