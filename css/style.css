@@ -103,8 +103,7 @@ a {
 }
 
 @media (min-width: 992px) {
-  .positions,
-  .socialicons {
+  .positions {
     position: fixed;
   }
   .accessibillity {
@@ -118,11 +117,9 @@ a {
     margin-top: 100px !important;
   }
   body {
-    font-size: 17px;
+    font-size: 18px;
   }
-  .socialicons {
-    margin-top: 460px;
-  }
+
   .Brittany .Chiang {
     font-size: 50px;
     font-weight: bold;
@@ -130,13 +127,21 @@ a {
   .Brittany {
     margin-top: 60px;
   }
+  .socialicons{
+    position: fixed;
+    bottom: 20px;
+  }
+ 
+}
+@media(max-width: 991px)   {
+  .bg-blacks{
+    position: fixed;
+    background-color: #0f172a;
+    }  
 }
 @media (max-width: 768px) {
   .development {
     margin-top: 18px;
-  }
-  .positions {
-    position: static;
   }
   .Losely {
     margin-top: 40px !important;
@@ -146,14 +151,11 @@ a {
     font-size: 35px;
     font-weight: bold;
   }
-  .bg-blacks{
-  position: fixed;
-  background-color: #0f172a;
-  }
   .development{
     margin-top: 145px;
   }
   body {
     font-size: 16px;
   }
+
 }
