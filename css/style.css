@@ -54,8 +54,7 @@ body {
   text-transform: capitalize;
   font-weight: 600;
 }
-.javabtn,
-.javabtn:hover {
+.courses button, button:hover {
   color: #48cbdc;
   font-size: 13px;
   border-radius: 20px;
@@ -105,6 +104,19 @@ a {
 }
 .fa-instagram:hover {
   color: rgb(239, 50, 81);
+}
+/* Add this to your style.css file */
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.courses button {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin: 0.2rem 0;
 }
 
 @media (min-width: 992px) {
@@ -159,5 +171,15 @@ a {
   }
   body {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .courses {
+    gap: 0.3rem;
+  }
+  .javabtn {
+    padding: 0.25rem 0.5rem !important;
+    font-size: 0.7rem;
   }
 }
