@@ -20,7 +20,7 @@
                     <div class="col-12 col-lg-6 pt-2 pt-lg-5 bg-blacks  ">
                         <div class="positions">
                             <div class="Chiang text-white">Praksh S</div>
-                            <div class="Senior text-white"> Frontend Developer (React,Nextjs)</div>
+                            <div class="Senior text-white" id="role"> Frontend Developer (React,Nextjs)</div>
                             <div class="w-75 w-lg-25 pt-3 d-none d-md-block">I build interactive projects
                                 and user pages e-commerce websites.
                             </div>
@@ -67,7 +67,7 @@
                                     <span class="text-white">About:</span>
                                     <p>
                                         I am Prakash, from Pudukkottai. I completed my B.A. degree at Arts and Science
-                                        College, Peravurani. I started my career at Wiser Web as an intern in January
+                                        College, Peravurani. I started my career at Wiser Web as an intern in may
                                         2023, and since then, I've had the opportunity to develop websites using
                                         Bootstrap, React.js, and Next.js.
                                         <br><br>
@@ -392,6 +392,16 @@
         </div>
         </div>
     </section>
+    <script>
+        let arrayData = ["React", "Redux", "Nextjs"];
+        let index = 0;
+        const roleElement = document.getElementById("role");
+        setInterval(() => {
+            roleElement.innerHTML = `Frontend Developer (${arrayData[index]})`;
+            index = (index + 1) % arrayData.length;
+        }, 3000);
+
+    </script>
     <script src="./assets/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
