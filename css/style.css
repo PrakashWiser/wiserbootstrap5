@@ -115,9 +115,11 @@ a {
   align-items: center;
 }
 
+
 .courses button {
   font-size: 0.8rem;
   white-space: nowrap;
+
   margin: 0.2rem 0;
 }
 
