@@ -3,15 +3,19 @@
 
 :root {
   --brandcolor: #9da7bb;
+  --font-akaya: "Akaya Kanadaka", cursive;
   --font-morden: "Montserrat", sans-serif;
   --bgColor: #0f172a;
   --text-color: #4dbfb1;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-morden);
   background-color: var(--bgColor);
   color: var(--brandcolor);
   font-size: 20px;
+}
+.style_font {
+  font-family: var(--font-akaya);
 }
 .Brittany .nav-link {
   font-size: 13px;
@@ -112,7 +116,6 @@ a {
   gap: 0.5rem;
   align-items: center;
 }
-
 
 .courses button {
   font-size: 0.8rem;
