@@ -110,6 +110,10 @@ a {
 .fa-instagram:hover {
   color: rgb(239, 50, 81);
 }
+.fa.fa-whatsapp:hover {
+  color: green;
+}
+
 .courses {
   display: flex;
   flex-wrap: wrap;
