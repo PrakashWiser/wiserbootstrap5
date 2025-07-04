@@ -9,7 +9,7 @@
   --text-color: #4dbfb1;
 }
 body {
-  font-family: var(--font-akaya);
+  font-family: var(--font-morden);
   background-color: var(--bgColor);
   color: var(--brandcolor);
   font-size: 20px;
