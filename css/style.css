@@ -35,14 +35,7 @@ body {
   font-size: 22px;
   font-weight: 600;
 }
-.Brittany .underlines {
-  border-bottom: 1px solid white;
-}
-.Brittany .experience:hover {
-  width: 80px;
-  border-bottom: 1px solid white;
-  width: 40px;
-}
+
 .partents:hover {
   background-color: #1f2738;
 }
@@ -83,12 +76,15 @@ body {
   background-color: var(--brandcolor);
   display: inline-block;
   margin: 3px 10px 3px 0px;
-  transition: width 0.5s;
+  transition: width 0.5s, background-color 0.5s;
 }
-.abouts:hover::before {
+
+.abouts:hover::before,
+.abouts.active::before {
   width: 80px;
-  background-color: white;
+  background-color: #f0ad4e;
 }
+
 .label_heading {
   font-size: 13px;
   font-weight: 600;
@@ -145,7 +141,6 @@ a {
   .Loosely {
     margin-top: 100px !important;
   }
-
 
   .Brittany .Chiang {
     font-size: 50px;
